@@ -1,0 +1,415 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo-docplanner{
+  width: 268px;
+  height: 33px;
+  
+}
+.main-menu{
+  padding: 0px 9px;
+  
+  display:flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+#about-us{
+  color: #00b39b;
+
+}
+.career{
+  color: #ababab;
+}
+.career:hover{
+  color: #00b39b;
+
+}
+.main-menu li{
+  margin-left: 20px;
+  list-style: none;
+  }
+  .main-menu a{
+      text-decoration: none;
+        
+  }
+  .nav-bar{
+      z-index: 8;
+      width: 100%;
+      height: 20%;
+     
+      display:flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+      
+      position: fixed;
+      
+      background: hsla(0,0%,100%,.98);
+      
+      
+
+  }
+  .dropdown-menu{
+      
+      
+      display:none;
+      position:absolute;
+      background-color:white;
+      left:50px;right:0; top:20px;
+    }
+
+    .dropdown-link:hover .dropdown-menu{
+      display: block;
+    }
+    .dropdown-menu a{
+      color: #ababab;      
+  }
+  .dropdown-menu a:hover {
+      color:#00b39b;
+  background-color: #ababab;
+  
+  }
+
+.lead-section{
+  padding-top: 10%;
+  
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  
+  
+}
+ 
+
+  .lead-section h1{
+      color:#00b39b;
+  }
+
+  
+  .section-content{
+      
+      display:flex;
+      justify-content:center;
+      max-width:100%;
+      font-size: 18px;
+      color: #747474;
+      line-height: 1.75;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      padding:2% 10%;
+  }
+  .par1{
+      padding-right: 10px;
+  }
+  .par2{
+      padding-left: 10px;
+  }
+    
+
+  .item-services{
+      
+      display:flex;
+      justify-content: space-around;
+      padding:22px 40px;
+      
+      
+   }
+  .item-services h2{
+  font-size: .875em;
+  font-weight: 400;
+  margin: 15px;
+  color: hsla(0,0%,100%,.7);
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  .item-services h1{
+      
+      margin: 1em 0;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  letter-spacing: .3px;
+  font-size: 1.625em;
+  color: #fff;
+  margin: 15px;
+  
+  
+  }
+  .item-services img{
+      
+      width:397px ;
+position: absolute;      
+     bottom: 0;
+     right: -100px;
+
+    
+  
+  }
+  .patients-service{
+      height: 420px;
+      width: 510px;
+      
+      background: #00ccb1;
+      border-radius: 10px;
+      margin-left:4%;
+      overflow: hidden;
+      position: relative;
+  }
+  
+  .btn-country-select{
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      background:white;
+     -webkit-appearance: none;
+      text-transform: uppercase;
+       border-radius: 8px;
+       margin: 15px;
+       }
+   .btn-country-select:hover{
+       background-color:whitesmoke;
+   }    
+  .doctor-service{
+     
+      background: #3d83df;
+      height:420px;
+      width: 530px;
+      border-radius: 10px;
+      margin-right: 6%;
+      overflow: hidden;
+      position: relative;
+
+   }
+
+
+
+   .brand{
+      display:flex;
+      justify-content: space-around;
+      margin: 60PX;
+   }
+   .brand h1{
+      float: left;
+      width: 33%;
+      font-size: 1.625em;
+      margin-left:10% ;
+      padding-right: 1em;
+      color: #00b39b;
+   }
+   .logo-brand{
+       display:flex;
+       flex-wrap: wrap;
+       list-style: none;
+       
+       
+   }
+ .logo-brand a{
+     fill:#747474;
+     height: 20px;
+ 
+ }
+ .logo-brand li a svg:hover{
+    fill: #00ccb1;
+ }
+
+
+ .statistical{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     
+     padding: 30px;
+  background: #e5faf8;
+  background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));    
+}
+.statistical h1{
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.statistical h6{
+ 
+  color: #00b39b;
+  margin: .5em 0;
+}
+.statistical p{
+  max-width: 415px;
+  font-size: .875em;
+  font-weight: 400;
+  line-height: 1.7142857143;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #747474;
+}
+.stat-description{
+  padding-top: 20px;
+  
+
+}
+.gird-elements{
+  
+  height:560px ;
+  width:530px ;
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+
+}
+.ggg{
+   
+  width:60%;
+  display:flex;
+  flex-wrap:wrap
+}
+.patients{
+  margin:10px;
+ margin-bottom: 20px;
+  height:250px ;
+  width:250px ;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.x{
+ 
+  
+  height:250px ;
+  width:250px ;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 20px;
+  padding: 15px;
+  
+
+  
+}
+.x p{
+  margin-top: 20px;
+}
+ h6{
+
+  font-weight: 500px;
+    
+}
+
+.ggg h6{
+  font-weight: 300px;
+    letter-spacing: .3px;  
+
+
+}
+/* .patients{
+  
+  height:250px ;
+  width:228px ;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 15px;
+
+
+} */
+/* .doctors{
+ 
+  height:250px ;
+  width:228px ;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 20px;
+  padding: 15px;
+
+} */
+
+
+
+
+.office-description{
+ 
+  text-align: center;
+  margin-left: 30%;
+  margin-right:30% ;
+  margin-top:20PX;
+}
+.office-description h1{
+  font-size: 2.1428571429em;
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: .3px;
+}
+.office-description p{
+  line-height: 1.7142857143;
+  margin: 1.6em 0;
+  color: #747474;
+}
+.office-pic{
+  padding:70px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style:none;
+  
+  
+  
+
+}
+.office__desc{
+  
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+     
+}
+.btn-small{
+  background: #3d83df;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .04em;
+  font-size: .75rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding:10px 15px;
+  border-radius: 4px;
+}
+.btn-small:hover{
+  background: blue;
+}
+.office__image img{
+  border-radius: 6px;
+}
+.office a{
+  color: #747474;
+  font-size: 1.125em;
+  text-decoration:none
+}
+.office:hover{
+  transform: translateY(-2px);
+  box-shadow: 5px 5px white;
+}
+.main-footer{
+  
+  display:block;
+  text-align: center;
+ padding-top: 20px;
+  
+  height: 113px;
+  width: 1349px;
+  font-size: .75em;
+  color: #ababab;
+  list-style:none;
+}
+.main-footer a {
+  text-decoration: none;
+
+}
